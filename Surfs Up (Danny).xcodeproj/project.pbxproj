@@ -14,7 +14,6 @@
 		F5BDB09F1581A5B70002DCB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDB09E1581A5B70002DCB3 /* main.m */; };
 		F5BDB0A31581A5B70002DCB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDB0A21581A5B70002DCB3 /* AppDelegate.m */; };
 		F5BDB0A61581A5B70002DCB3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BDB0A41581A5B70002DCB3 /* MainStoryboard.storyboard */; };
-		F5BDB0A91581A5B70002DCB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDB0A81581A5B70002DCB3 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +21,13 @@
 		F5BDB0921581A5B70002DCB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5BDB0941581A5B70002DCB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F5BDB0961581A5B70002DCB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F5BDB09A1581A5B70002DCB3 /* Surfs Up (Danny)-Info.plist */ = {isa = PBXFileReference; path = "Surfs Up (Danny)-Info.plist"; sourceTree = "<group>"; };
+		F5BDB09A1581A5B70002DCB3 /* Surfs Up (Danny)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Surfs Up (Danny)-Info.plist"; sourceTree = "<group>"; };
 		F5BDB09C1581A5B70002DCB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5BDB09E1581A5B70002DCB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F5BDB0A01581A5B70002DCB3 /* Surfs Up (Danny)-Prefix.pch */ = {isa = PBXFileReference; path = "Surfs Up (Danny)-Prefix.pch"; sourceTree = "<group>"; };
-		F5BDB0A11581A5B70002DCB3 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5BDB0A01581A5B70002DCB3 /* Surfs Up (Danny)-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Surfs Up (Danny)-Prefix.pch"; sourceTree = "<group>"; };
+		F5BDB0A11581A5B70002DCB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5BDB0A21581A5B70002DCB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F5BDB0A51581A5B70002DCB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F5BDB0A71581A5B70002DCB3 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		F5BDB0A81581A5B70002DCB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +77,6 @@
 				F5BDB0A11581A5B70002DCB3 /* AppDelegate.h */,
 				F5BDB0A21581A5B70002DCB3 /* AppDelegate.m */,
 				F5BDB0A41581A5B70002DCB3 /* MainStoryboard.storyboard */,
-				F5BDB0A71581A5B70002DCB3 /* ViewController.h */,
-				F5BDB0A81581A5B70002DCB3 /* ViewController.m */,
 				F5BDB0991581A5B70002DCB3 /* Supporting Files */,
 			);
 			path = "Surfs Up (Danny)";
@@ -162,7 +157,6 @@
 			files = (
 				F5BDB09F1581A5B70002DCB3 /* main.m in Sources */,
 				F5BDB0A31581A5B70002DCB3 /* AppDelegate.m in Sources */,
-				F5BDB0A91581A5B70002DCB3 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
