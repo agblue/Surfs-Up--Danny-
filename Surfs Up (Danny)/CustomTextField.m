@@ -22,7 +22,7 @@
 
 - (void)drawRect:(CGRect)rect
 {
-    UIImage *textFieldBackground = [[UIImage imageNamed:@"text_field_teal.png"] resizeableImageWithCapInsets:UIEdgeInsetsMake(15.0,5.0,15.0,5.0)];
+    UIImage *textFieldBackground = [[UIImage imageNamed:@"text_field_teal.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(15.0,5.0,15.0,5.0)];
     [textFieldBackground drawInRect:[self bounds]];    
 }
 

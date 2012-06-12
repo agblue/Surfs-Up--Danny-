@@ -35,6 +35,7 @@
 		F5BDB09F1581A5B70002DCB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDB09E1581A5B70002DCB3 /* main.m */; };
 		F5BDB0A31581A5B70002DCB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BDB0A21581A5B70002DCB3 /* AppDelegate.m */; };
 		F5BDB0A61581A5B70002DCB3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BDB0A41581A5B70002DCB3 /* MainStoryboard.storyboard */; };
+		F5C61EC61586D4A800BCB459 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F59CEA901582641F0092948E /* CustomTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,8 +150,8 @@
 				F59CEA6A158251150092948E /* Images */,
 				F5BDB0A11581A5B70002DCB3 /* AppDelegate.h */,
 				F5BDB0A21581A5B70002DCB3 /* AppDelegate.m */,
-				F59CEA8F1582641F0092948E /* CustomTextField.h */,
 				F59CEA901582641F0092948E /* CustomTextField.m */,
+				F59CEA8F1582641F0092948E /* CustomTextField.h */,
 				F59CEA6215824C190092948E /* MainTripViewController.h */,
 				F59CEA6315824C190092948E /* MainTripViewController.m */,
 				F59CEA6515824D760092948E /* TripDetailViewController.h */,
@@ -259,6 +260,7 @@
 				F59CEA6015824AAB0092948E /* Trip.m in Sources */,
 				F59CEA6415824C190092948E /* MainTripViewController.m in Sources */,
 				F59CEA6715824D760092948E /* TripDetailViewController.m in Sources */,
+				F5C61EC61586D4A800BCB459 /* CustomTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
